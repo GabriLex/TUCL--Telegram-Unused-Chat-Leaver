@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Telethon](https://img.shields.io/badge/Library-Telethon-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac%20%7C%20Termux-green)
-
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=LightYagami28_TUCL--Telegram-Unused-Chat-Leaver)](https://sonarcloud.io/summary/new_code?id=LightYagami28_TUCL--Telegram-Unused-Chat-Leaver)
 ## 📌 Introduzione
 **Telegram Unused Chat Leaver (TUCL)** è uno script Python progettato per abbandonare automaticamente le chat di Telegram inattive per un determinato numero di giorni.
 
