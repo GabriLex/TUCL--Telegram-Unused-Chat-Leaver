@@ -76,7 +76,7 @@ Per usare l'API di Telegram, segui questi passaggi:
 
 Dopo aver configurato le API, esegui:
 
-python leave.py
+python leaver.py
 
 
 ---
