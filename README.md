@@ -26,14 +26,13 @@ Assicurati di avere **Python 3.7+** e **pip** installati. Puoi verificarlo esegu
 python --version
 pip --version
 
-'''bash
 pip 
 install 
 telethon
 
-'''bash
 python
 leave.py
+'''bash
 
 ## Creazione API Telegram
 
