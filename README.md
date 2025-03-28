@@ -1,53 +1,90 @@
-# Telegram Unused Chat Leaver (TUCL)
+Telegram Unused Chat Leaver (TUCL)
 
-**Telegram Unused Chat Leaver (TUCL)** è uno script Python che ti permette di abbandonare automaticamente le chat di Telegram che non hanno avuto attività per un certo numero di giorni. È possibile filtrare il tipo di chat da abbandonare (chat personali, gruppi, canali) e configurare una whitelist per evitare di abbandonare chat importante.
+Telegram Unused Chat Leaver (TUCL) è uno script Python che ti permette di abbandonare automaticamente le chat di Telegram inattive per un certo numero di giorni.
 
-Utile per risolvere il problema del limite gratuito di 500 chat di Telegram Free e consumare meno banda e risorse ottenendo più ordine.
+Puoi selezionare il tipo di chat da abbandonare (chat private, gruppi, canali) e configurare una whitelist per evitare di uscire da chat importanti.
 
-## Funzionalità
-- Abbandona le chat in base alla data dell'ultimo messaggio.
-- Seleziona il tipo di chat da abbandonare (chat personali, gruppi, canali).
-- Aggiungi chat alla whitelist per evitare di abbandonarle.
-- Supporto per l'autenticazione 2FA di Telegram.
-- Filtra le chat per tipo e numero di giorni di inattività.
-- Mostra un'arte ASCII di benvenuto al lancio dello script.
+Utile per evitare il limite gratuito di 500 chat su Telegram Free, ridurre il consumo di banda e risorse, e mantenere il tuo account più organizzato.
 
-## Requisiti
 
-1. **Python 3.7 o superiore**.
-2. **Biblioteca `telethon`** (per interagire con l'API di Telegram).
-3. **API ID e API Hash** (per autenticarsi con Telegram).
+---
 
-## Installazione librerie
+🌟 Funzionalità
 
-Assicurati di avere **Python 3.7+** e **pip** installati. Puoi verificarlo eseguendo i seguenti comandi:
+🔗 Abbandona automaticamente le chat in base all'inattività.
 
-```bash
+🌐 Selezione personalizzata: chat private, gruppi o canali.
+
+✅ Whitelist: evita di abbandonare chat importanti.
+
+⚡ Supporto 2FA (autenticazione a due fattori).
+
+⌛ Filtra per giorni di inattività.
+
+🎨 ASCII art "TUCT" all'avvio dello script.
+
+
+
+---
+
+⚙ Requisiti
+
+Python 3.7+
+
+Libreria telethon (per interagire con l'API di Telegram)
+
+API ID e API Hash di Telegram
+
+
+
+---
+
+💻 Installazione
+
+1. Installare Python e le dipendenze
+
+Assicurati di avere Python 3.7+ installato:
+
 python --version
 pip --version
 
-pip 
-install 
-telethon
+Installa la libreria necessaria:
 
-python
-leave.py
-bash'''
+pip install telethon
 
-## Creazione API Telegram
+2. Ottenere le API di Telegram
 
-Per poter usare l'API di Telegram, devi ottenere l'API ID e l'API Hash seguendo questi passaggi:
+Per usare l'API di Telegram, segui questi passaggi:
 
-1. Vai su https://my.telegram.org e accedi con il tuo numero di telefono.
+1. Vai su my.telegram.org e accedi con il tuo numero di telefono.
 
 
-2. Seleziona "API development tools" dal menu.
+2. Clicca su API development tools.
 
 
-3. Crea una nuova applicazione inserendo il nome e la descrizione dell'app.
+3. Crea una nuova applicazione inserendo nome e descrizione.
 
 
-4. Una volta creata, otterrai il API ID e l'API Hash necessari per l'autenticazione.
+4. Dopo la creazione, otterrai il API ID e API Hash, necessari per autenticarti.
 
 
-Made by ChatGPT by OpenAI
+
+
+---
+
+🔄 Esecuzione dello script
+
+Dopo aver configurato le API, esegui:
+
+python leave.py
+
+
+---
+
+👨‍💻 Autore
+
+Made by ChatGPT by OpenAI.
+
+
+---
+
