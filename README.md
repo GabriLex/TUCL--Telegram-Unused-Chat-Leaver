@@ -1,164 +1,122 @@
-Telegram Unused Chat Leaver (TUCL)
+# Telegram Unused Chat Leaver (TUCL)
 
-Telegram Unused Chat Leaver (TUCL) è uno script Python che ti permette di abbandonare automaticamente le chat di Telegram inattive per un certo numero di giorni.
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
+![Telethon](https://img.shields.io/badge/Library-Telethon-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac%20%7C%20Termux-green)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LightYagami28_TUCL--Telegram-Unused-Chat-Leaver&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LightYagami28_TUCL--Telegram-Unused-Chat-Leaver)
+## 📌 Introduzione
+**Telegram Unused Chat Leaver (TUCL)** è uno script Python progettato per abbandonare automaticamente le chat di Telegram inattive per un determinato numero di giorni.
 
-Puoi selezionare il tipo di chat da abbandonare (chat private, gruppi, canali) e configurare una whitelist per evitare di uscire da chat importanti.
-
-Utile per evitare il limite gratuito di 500 chat su Telegram Free, ridurre il consumo di banda e risorse, e mantenere il tuo account più organizzato.
-
-Supporta Termux, quindi può essere eseguito anche su dispositivi Android!
-
-
----
-
-🌟 Funzionalità
-
-🔗 Abbandona automaticamente le chat in base all'inattività.
-
-🌍 Selezione personalizzata: chat private, gruppi o canali.
-
-✅ Whitelist: evita di abbandonare chat importanti.
-
-⚡ Supporto 2FA (autenticazione a due fattori).
-
-⏳ Filtra per giorni di inattività.
-
-🎨 ASCII art "TUCT" all'avvio dello script.
-
-🌐 Selezione lingua: Italiano / Inglese.
-
-📱 Compatibile con Termux: funziona su Android senza problemi.
-
-
+Permette di:
+- Selezionare il tipo di chat da lasciare (chat private, gruppi, canali).
+- Configurare una whitelist per escludere chat importanti.
+- Ottimizzare la gestione dell'account, evitando il limite di **500 chat su Telegram Free**.
+- Ridurre il consumo di banda e risorse.
+- Supportare **Termux**, consentendo l'esecuzione su dispositivi Android.
 
 ---
 
-⚙ Requisiti
+## 🌟 Funzionalità
 
-Python 3.7+
-
-Libreria telethon (per interagire con l'API di Telegram)
-
-API ID e API Hash di Telegram
-
-
+- 🔗 **Abbandono automatico** delle chat in base all'inattività.
+- 🌍 **Selezione personalizzata**: chat private, gruppi o canali.
+- ✅ **Whitelist**: evita di abbandonare chat importanti.
+- ⚡ **Supporto 2FA** (autenticazione a due fattori).
+- ⏳ **Filtraggio per giorni di inattività**.
+- 🎨 **ASCII Art** "TUCL" all'avvio dello script.
+- 🌐 **Selezione lingua**: Italiano / Inglese.
+- 📱 **Compatibile con Termux**: funziona senza problemi su Android.
 
 ---
 
-💻 Installazione
+## ⚙ Requisiti
 
-1. Installare Python e le dipendenze
+- **Python 3.7+**
+- **Libreria Telethon** (per interagire con l'API di Telegram)
+- **API ID e API Hash** di Telegram
 
-Assicurati di avere Python 3.7+ installato:
+---
 
+## 💻 Installazione
+
+### 1️⃣ Installare Python e le dipendenze
+
+Assicurati di avere **Python 3.7+** installato:
+```bash
 python --version
 pip --version
-
+```
 Installa la libreria necessaria:
-
+```bash
 pip install telethon
+```
 
-2. Ottenere le API di Telegram
+### 2️⃣ Ottenere le API di Telegram
 
-Per usare l'API di Telegram, segui questi passaggi:
-
-1. Vai su my.telegram.org e accedi con il tuo numero di telefono.
-
-
-2. Clicca su API development tools.
-
-
+1. Vai su **[my.telegram.org](https://my.telegram.org)** e accedi con il tuo numero di telefono.
+2. Clicca su **API Development Tools**.
 3. Crea una nuova applicazione inserendo nome e descrizione.
-
-
-4. Dopo la creazione, otterrai il API ID e API Hash, necessari per autenticarti.
-
-
-
+4. Dopo la creazione, otterrai **API ID** e **API Hash**, necessari per l'autenticazione.
 
 ---
 
-🔄 Esecuzione dello script
+## 🔄 Esecuzione dello script
 
 Dopo aver configurato le API, esegui:
-
+```bash
 python leave.py
-
-All'avvio, potrai scegliere la lingua dello script (Italiano o Inglese).
-
+```
+All'avvio, potrai scegliere la lingua dello script (**Italiano o Inglese**).
 
 ---
 
-🇬🇧 English Version
+## 🇬🇧 English Version
 
-Telegram Unused Chat Leaver (TUCL) is a Python script that allows you to automatically leave Telegram chats that have been inactive for a set number of days.
+**Telegram Unused Chat Leaver (TUCL)** is a Python script that allows you to automatically leave Telegram chats that have been inactive for a set number of days.
 
-You can select which type of chats to leave (private chats, groups, channels) and configure a whitelist to avoid leaving important chats.
+### 🌟 Features
 
-Useful for avoiding the 500 free chat limit on Telegram Free, reducing bandwidth and resource usage, and keeping your account more organized.
+- 🔗 **Automatically leaves inactive chats**.
+- 🌍 **Custom selection**: private chats, groups, or channels.
+- ✅ **Whitelist**: prevent leaving important chats.
+- ⚡ **2FA support**.
+- ⏳ **Filter by days of inactivity**.
+- 🎨 **ASCII art "TUCL"** at script startup.
+- 🌐 **Language selection**: Italian / English.
+- 📱 **Compatible with Termux**: works seamlessly on Android.
 
-It also supports Termux, so it can be run on Android devices!
+### 💻 Installation
 
-🌟 Features
-
-🔗 Automatically leaves inactive chats.
-
-🌍 Custom selection: private chats, groups, or channels.
-
-✅ Whitelist: prevent leaving important chats.
-
-⚡ 2FA support.
-
-⏳ Filter by days of inactivity.
-
-🎨 ASCII art "TUCT" at script startup.
-
-🌐 Language selection: Italian / English.
-
-📱 Compatible with Termux: works seamlessly on Android.
-
-
-💻 Installation
-
-Ensure you have Python 3.7+ installed:
-
+Ensure you have **Python 3.7+** installed:
+```bash
 python --version
 pip --version
-
+```
 Install the required library:
-
+```bash
 pip install telethon
+```
 
-2. Get Telegram API Credentials
+### 2️⃣ Get Telegram API Credentials
 
-1. Go to my.telegram.org and log in with your phone number.
-
-
-2. Click on API development tools.
-
-
+1. Go to **[my.telegram.org](https://my.telegram.org)** and log in with your phone number.
+2. Click on **API Development Tools**.
 3. Create a new application by entering name and description.
+4. Once created, you will receive **API ID** and **API Hash** for authentication.
 
-
-4. Once created, you will receive API ID and API Hash for authentication.
-
-
-
-🔄 Run the script
+### 🔄 Run the script
 
 After configuring the API credentials, run:
-
+```bash
 python leave.py
-
-At startup, you will be able to choose the script language (Italian or English).
-
+```
+At startup, you will be able to choose the script language (**Italian or English**).
 
 ---
 
-👨‍💻 Autore
+## 👨‍💻 Autore
 
-Made by ChatGPT by OpenAI.
-
+Realizzato da **ChatGPT by OpenAI**.
 
 ---
 
