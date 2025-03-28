@@ -32,7 +32,7 @@ telethon
 
 python
 leave.py
-'''bash
+bash'''
 
 ## Creazione API Telegram
 
